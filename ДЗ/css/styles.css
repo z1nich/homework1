@@ -1,0 +1,82 @@
+:root {
+  --color-primary-blue: #2b7fff;
+  --color-primary-white: #ffffff;
+  --color-primary-dark-blue: #011c44;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-dark-blue);
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Button */
+.button {
+  color: var(--color-primary-white);
+  font-weight: 219;
+  border-radius: 32px;
+  border: 2px solid var(--color-primary-white);
+  background-color: var(--color-primary-blue);
+  cursor: pointer;
+}
+.button:hover {
+  color: var(--color-primary-dark-blue);
+  background-color: transparent;
+}
+
+/* Button arrow */
+.button-left {
+  background-color: var(--color-primary-white);
+  color: var(--color-primary-dark-blue);
+}
+.button-left:hover {
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-blue);
+}
+
+.button-right {
+  background-color: var(--color-primary-white);
+  color: var(--color-primary-dark-blue);
+}
+.button-right:hover {
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-blue);
+}
+
+/* Link */
+.link {
+  color: var(--color-primary-dark-blue);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-primary-blue);
+  font-weight: 700;
+  background-color: transparent;
+}
+
+/* Hero section */
+.hero-title {
+  color: var(--color-primary-blue);
+  text-align: left;
+  font-size: 140px;
+  font-weight: 700;
+}
+
+/* Brand section */
+.brand-uppercase {
+  color: var(--color-primary-dark-blue);
+  font-size: 64px;
+  font-weight: 700;
+}
